@@ -35,12 +35,34 @@ h2{
 
 .projects-container{
   display: flex;
-  width: 90%;
-  align-items: flex-start;
-  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  flex-direction: row;
   margin-bottom: 20px;
+  justify-content: space-around;
+}
+
+.final-project, .css-demo, .ski-free{
+  width: 380px;
+  height: 400px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project-description{
+  width: 70%;
+  font-style: italic;
+  font-size: 12px;
+  text-align: center;
 }
 
 .project-link{
   font-size: 25px;
+}
+
+.project-pic{
+  border: 0.1px solid #ccc;
+  margin-top: 10px;
+  height: 200px;
 }
