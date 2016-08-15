@@ -1,0 +1,27 @@
+.contact-details{
+  width: 100%;
+  background: #edeeef;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.contact-icon{
+  height: 200px;
+  margin: 10px;
+  -webkit-transition: border-radius 200ms;
+  -moz-transition: border-radius 200ms;
+}
+
+
+
+.contact-icon:hover{
+  border-radius: 100px;
+}

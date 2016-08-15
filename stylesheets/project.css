@@ -1,0 +1,46 @@
+.projects{
+  width: 100%;
+  background: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-line{
+  height: 3px;
+  width: 40px;
+  background: black;
+  position: relative;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+p{
+  font-family: 'avenir';
+  font-size: 17px;
+}
+
+.project-title{
+  width: 115px;
+  font-weight: normal;
+}
+
+
+h2{
+  font-weight: normal;
+  align-self: flex-start;
+}
+
+.projects-container{
+  display: flex;
+  width: 90%;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.project-link{
+  font-size: 25px;
+}
