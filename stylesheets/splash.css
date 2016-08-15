@@ -114,6 +114,17 @@ a:hover{
  -moz-transform: translateX(335%);
 }
 
+#a1:hover{
+  color: blue;
+}
+
+#a2:hover{
+  color: blue;
+}
+
+#a3:hover{
+  color: blue;
+}
 
 .prof-container{
   display: flex;
